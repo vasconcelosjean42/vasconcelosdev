@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
         --background: #edf1fd;
 
         --primary: #f80533;
+        --primaryLess: #ff8a00;
 
         --text: #282a37;
 
@@ -30,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background: var(--background);
+        color: var(--text);
     }
     
     body, input, textarea, button {
