@@ -1,7 +1,15 @@
-export function App() {
+import { GlobalStyle } from "./styles/global";
+
+import Routes from './routes';
+import { BrowserRouter } from "react-router-dom";
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
+    <BrowserRouter>
+      <Routes />
+      <GlobalStyle />
+    </BrowserRouter>
   );
 }
+
+export default App;
