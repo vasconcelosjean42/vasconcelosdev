@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 import Profile from "../../assets/profile.png";
 
