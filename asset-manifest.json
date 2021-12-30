@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/vasconcelosdev/static/js/main.0118f57d.js",
+    "main.js": "/vasconcelosdev/static/js/main.5a5c4151.js",
     "static/media/profile.png": "/vasconcelosdev/static/media/profile.e22cc5e79c97f0f1e4af.png",
     "static/media/logo.svg": "/vasconcelosdev/static/media/logo.fcfeedc55c946b2a73eb1c82e39f7fcc.svg",
     "index.html": "/vasconcelosdev/index.html",
-    "main.0118f57d.js.map": "/vasconcelosdev/static/js/main.0118f57d.js.map"
+    "main.5a5c4151.js.map": "/vasconcelosdev/static/js/main.5a5c4151.js.map"
   },
   "entrypoints": [
-    "static/js/main.0118f57d.js"
+    "static/js/main.5a5c4151.js"
   ]
 }
