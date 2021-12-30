@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     flex: 1;
+    height: 100vh;
+    margin-left: 390px;
 `;
 
 export const Content = styled.div`

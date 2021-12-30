@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     background: var(--sidebar);
+    position: fixed;
 `;
 
 export const Content = styled.ul`
