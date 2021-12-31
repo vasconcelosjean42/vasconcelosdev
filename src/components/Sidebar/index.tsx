@@ -3,15 +3,19 @@ import { Link } from "react-router-dom";
 
 import data from "./data";
 
-import Logo from "../../assets/logo.svg";
-
-import { Container, Content } from "./styles";
+import { Container, Content, Logo } from "./styles";
 
 export const Sidebar = () => {
     return (
         <Container>
             <Content>
-                <img src={Logo} alt="Logo" />
+                <Link to='/vasconcelosdev/'>
+                    <Logo>
+                        <div className="topLine" />
+                        <h1>VASCONCELOS</h1>
+                        <div className="bottomLine"></div>
+                    </Logo>
+                </Link>
                 {data.map((item, index) => {
                     return (
                         <li key={index}>

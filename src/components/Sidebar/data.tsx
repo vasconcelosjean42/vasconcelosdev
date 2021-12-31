@@ -21,11 +21,6 @@ const data = [
         path: '/vasconcelosdev/servicos/',
         icon: <FaSuitcase />,
     },
-    {
-        title: 'Portifólio',
-        path: '/vasconcelosdev/portifolio/',
-        icon: <FaBars />,
-    },
 ]
 
 export default data;

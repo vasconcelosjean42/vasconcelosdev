@@ -31,13 +31,15 @@ export const Content = styled.ul`
         }
     }
     a{
+        text-decoration: none;
+        color: var(--text);
+    }
+    .nav-link{
         width: 100%;
         height: 100%;
         padding-left: 10px;
         display: flex;
         align-items: center;
-        text-decoration: none;
-        color: var(--text);
         font-size: 1.2rem;
         border-radius: 5px;
         span{
@@ -50,5 +52,38 @@ export const Content = styled.ul`
         flex: 1;
         font-weight: 300;
         padding: 15px;
+    }
+`;
+
+export const Logo = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin: 90px 30px 60px 30px;
+    font-size: 1.2rem;
+    .topLine{
+        width: 27%;
+        height: 5px;
+        background: var(--primary);
+        transition: 1s;
+    }
+    .bottomLine{
+        align-self: flex-end;
+        width: 73%;
+        height: 5px;
+        background: var(--primary);
+        transition: 1s;
+    }
+    &:hover{
+        .topLine{
+            width: 73%;
+            height: 5px;
+            background: var(--primary);
+        }
+        .bottomLine{
+            align-self: flex-end;
+            width: 27%;
+            height: 5px;
+            background: var(--primary);
+        }
     }
 `;
