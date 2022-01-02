@@ -2,7 +2,6 @@ import {
     FaHome,
     FaUserAlt,
     FaSuitcase,
-    FaBars
 } from "react-icons/fa";
 
 const data = [
