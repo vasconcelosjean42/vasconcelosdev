@@ -23,7 +23,7 @@ export const Title = styled.div`
     justify-content: space-between;
     align-items: center;
     background: ${props => props.theme.colors.primary};
-    color: ${props => props.theme.colors.sidebar};
+    color: ${props => props.theme.colors.hoverText};
     .icon {
         font-size: 3rem;
     }
