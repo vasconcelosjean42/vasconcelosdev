@@ -13,7 +13,7 @@ export const Content = styled.div`
 export const Title = styled.div`
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--primary);
+    color: ${props => props.theme.colors.primary};
     transition: 0.2s;
     &:hover{
         margin-left: 5px;
@@ -21,7 +21,7 @@ export const Title = styled.div`
 
     .horizontalLine{
         height: 1px;
-        background: var(--text);
+        background: ${props => props.theme.colors.text};
         opacity: 0.1;
         margin: 5px 0;
     }
@@ -33,7 +33,7 @@ export const Information = styled.div`
     
     .verticalLine{
         width: 1px;
-        background: var(--text);
+        background: ${props => props.theme.colors.text};
         opacity: 0.1;
         margin: 0 15px;
     }

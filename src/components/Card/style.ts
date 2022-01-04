@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     max-width: 300px;
     height: 300px;
-    background: var(--sidebar);
+    background: ${props => props.theme.colors.sidebar};
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -32,7 +32,7 @@ export const Content = styled.div`
     flex-direction: column;
     .title{
         font-weight: 700;
-        color: var(--primary);
+        color: ${props => props.theme.colors.primary};
         margin-bottom: 15px;
     }
     .description{

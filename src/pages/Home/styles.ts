@@ -21,14 +21,14 @@ export const Text = styled.div`
         font-weight: 700;
         white-space: nowrap;
         span span{
-            color: var(--primary);
+            color: ${props => props.theme.colors.primary};
         }
     }
     .bottomText{
         display: flex;
         align-items: center;
         div{
-            background: var(--text);
+            background: ${props => props.theme.colors.text};
             width: 120px;
             height: 2px;
             margin-right: 10px;
@@ -39,7 +39,7 @@ export const Text = styled.div`
 `;
 
 export const Image = styled.div`
-    background: linear-gradient(var(--primary), var(--primaryLess));
+    background: linear-gradient(${props => props.theme.colors.primary}, ${props => props.theme.colors.primaryLess});
     border-radius: 10px;
     margin-left: 30px;
     transition: 2s;
@@ -53,13 +53,13 @@ export const Image = styled.div`
         display: flex;
         flex-direction: column;
         z-index: 10;
-        color: var(--sidebar);
+        color: ${props => props.theme.colors.text};
         font-size: 2rem;
         transition: 1.2s;
         opacity: 0;
         a{
             text-decoration: none;
-            color: var(--sidebar);
+            color: ${props => props.theme.colors.sidebar};
             margin-left: 15px;
             transition: 0.2s;
         }
@@ -69,7 +69,7 @@ export const Image = styled.div`
 
     }
     a:hover{
-        color: var(--text);
+        color: ${props => props.theme.colors.text};
     }
     &:hover{
         border-radius: 20px;

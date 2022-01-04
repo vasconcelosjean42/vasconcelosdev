@@ -7,7 +7,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: var(--sidebar);
+    background: ${props => props.theme.colors.sidebar};
     box-shadow: 0px 8px 12px -10px rgba(0,0,0,0.61);
     transition: 0.2s;
     &:hover{
@@ -22,8 +22,8 @@ export const Title = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: var(--primary);
-    color: var(--sidebar);
+    background: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.sidebar};
     .icon {
         font-size: 3rem;
     }

@@ -12,7 +12,7 @@ const Stars = ({ amount }: Props) => {
         rows.push(<FaStar className="icon" />)
     }
     for (let i = 0; i < 5 - amount; i++) {
-        rows.push(<FaStar style={{ width: "1.1rem", color: "var(--primary)" }} opacity={0.5} />)
+        rows.push(<FaStar style={{ width: "1.1rem", color: "${props => props.theme.colors.primary}" }} opacity={0.5} />)
     }
 
     return (

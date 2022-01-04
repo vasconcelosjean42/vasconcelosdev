@@ -4,8 +4,8 @@ export const GlobalStyle = createGlobalStyle`
     :root {
         --background: #edf1fd;
 
-        --primary: #3A15BF;
-        --primaryLess: #4909F9;
+        --primary: #020887;
+        --primaryLess: #334195;
 
         --text: #282a37;
 
@@ -30,8 +30,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: var(--background);
-        color: var(--text);
+        background: ${props => props.theme.colors.background};
+        color: ${props => props.theme.colors.text};
     }
     
     body, input, textarea, button {
