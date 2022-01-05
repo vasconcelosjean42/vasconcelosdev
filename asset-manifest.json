@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/vasconcelosdev/static/js/main.29353f71.js",
+    "main.js": "/vasconcelosdev/static/js/main.3c167b38.js",
     "static/media/profile.png": "/vasconcelosdev/static/media/profile.e22cc5e79c97f0f1e4af.png",
     "index.html": "/vasconcelosdev/index.html",
-    "main.29353f71.js.map": "/vasconcelosdev/static/js/main.29353f71.js.map"
+    "main.3c167b38.js.map": "/vasconcelosdev/static/js/main.3c167b38.js.map"
   },
   "entrypoints": [
-    "static/js/main.29353f71.js"
+    "static/js/main.3c167b38.js"
   ]
 }
