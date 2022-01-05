@@ -30,7 +30,12 @@ export const Title = styled.div`
 
 export const Information = styled.div`
     display: flex;
-    
+    @media (max-width: 595px){
+        flex-direction: column;
+        .item{
+            width: 100px;
+        }
+    }
     .verticalLine{
         width: 1px;
         background: ${props => props.theme.colors.text};

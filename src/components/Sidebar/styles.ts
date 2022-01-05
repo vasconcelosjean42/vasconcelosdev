@@ -3,6 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
     background: ${props => props.theme.colors.sidebar};
     position: fixed;
+    transition: 1s;
+    &.desactive{
+        left: -100%;
+    }
+    @media (max-width: 1350px){
+        
+    }
 `;
 
 export const Content = styled.ul`
@@ -90,5 +97,23 @@ export const Logo = styled.div`
             height: 5px;
             background: ${props => props.theme.colors.primary};
         }
+    }
+`;
+
+export const ToggleSidebar = styled.div`
+    align-self: flex-start;
+    margin: 15px;
+    margin-bottom: 0px;
+    z-index: 10;
+    position: fixed;
+    .icon{
+        font-size: 1.5rem;
+    }
+`;
+
+export const Space = styled.div`
+    margin-right: 390px;
+    &.desactive{
+        margin-right: 0px;
     }
 `;

@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
     flex: 1;
     height: 100vh;
-    margin-left: 390px;
 `;
 
 export const Content = styled.div`
@@ -12,6 +11,9 @@ export const Content = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 810px){
+        flex-direction: column-reverse;
+    }
 `;
 export const Text = styled.div`
     display: flex;
@@ -22,6 +24,9 @@ export const Text = styled.div`
         white-space: nowrap;
         span span{
             color: ${props => props.theme.colors.primary};
+        }
+        @media (max-width: 810px){
+            font-size: 2rem;
         }
     }
     .bottomText{

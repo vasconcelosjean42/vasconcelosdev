@@ -8,6 +8,7 @@ export const Services: React.FC = () => {
         <Container>
             <h1>Serviços</h1>
             <Content>
+                {/*
                 <div className="left">
                     {data.slice(0, Math.ceil(data.length / 2)).map((data) => {
                         return (
@@ -22,6 +23,16 @@ export const Services: React.FC = () => {
                         )
                     })}
                 </div>
+                */}
+
+                {data.map((data) => {
+                    return (
+                        <div className="item">
+                            <RedCard data={data} />
+                        </div>
+                    )
+                })}
+
             </Content>
         </Container>
     )

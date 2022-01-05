@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        transition: 1s;
         background: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.text};
     }
