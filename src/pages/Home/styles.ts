@@ -89,8 +89,7 @@ export const Image = styled.div`
     img {
         width: 200px;
         border-radius: 10px;
-        margin-bottom: -5px;
-        filter: brightness(1.6);
+        margin-bottom: -50px;
         transition: 1.5s;
     }
 `;
